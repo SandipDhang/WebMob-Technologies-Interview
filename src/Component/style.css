@@ -1,0 +1,41 @@
+.myCard {
+  margin: 10px 0px;
+}
+
+.card-body.serviceCard {
+  display: flex !important;
+  align-items: center;
+}
+
+.card-body.serviceCard img {
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.subServiceHead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalCard,
+.totalCard ul,
+.totalCard ul li {
+  background: #000;
+  color: #fff;
+}
+
+.totalList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer.totalList {
+  border-top: 1px solid #fff !important;
+  color: rgb(228, 165, 165);
+}
+
+.heading {
+  margin-top: 20px;
+}
